@@ -1,3 +1,7 @@
-body { 
-    background-color: #fff;
+body {
+    font-family: Roboto, Raleway, ;
+}
+:root {
+    --firs-color-text: #434455;
+    --default-backdround: #FFFFFF;
 }
