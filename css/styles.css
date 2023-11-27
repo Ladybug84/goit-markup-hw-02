@@ -1,7 +1,7 @@
 body {
-    font-family: Roboto, Raleway, ;
+  font-family: "Roboto", "sans-serif", "Raleway";
 }
 :root {
-    --firs-color-text: #434455;
-    --default-backdround: #FFFFFF;
+  --first-color-text: #434455;
+  --default-backgound: #ffffff;
 }
