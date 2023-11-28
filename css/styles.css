@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", "Raleway", "sans-serif";
-  color: text #434455;
-  background-color: #ffffff;
+  color:var(--first-color-text);
+  background-color:var(--default-background);
 }
 :root {
   --first-color-text: #434455;
