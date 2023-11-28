@@ -13,14 +13,18 @@ body {
 header {
   background-color: var(--default-background);
 }
-.logo {
+.nav > .logo {
   color: var(--thirth-color-text);
   font-size: 18px;
   text-decoration: none;
   text-transform: uppercase;
-  font-weight: 800;
+  font-weight: https://ladybug84.github.io/goit-markup-hw-02/800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
-.logo > .web {
+.logo > span > .stu {
+    
+
   color: var(--second-color-text);
 }
 .button {
