@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", "Raleway", "sans-serif";
+  font-family: "Roboto", "sans-serif";
   color:var(--first-color-text);
   background-color:var(--default-background);
 }
