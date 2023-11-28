@@ -1,7 +1,33 @@
 body {
-  font-family: "Roboto", "sans-serif", "Raleway";
+  font-family: "Roboto", "Raleway", "sans-serif";
 }
 :root {
   --first-color-text: #434455;
-  --default-backgound: #ffffff;
+  --default-background: #ffffff;
+  --second-color-text: #4d5ae5;
+  --thirth-color-text: #2e2f42;
+  --srecond-default-bachground: #e7e9fc;
+  --fourth-color-text: #f4f4fd;
+  --fifth-color-text: #fff;
+}
+header {
+  background-color: var(--default-background);
+}
+.logo {
+  color: var(--thirth-color-text);
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.logo > .web {
+  color: var(--second-color-text);
+}
+.button {
+  color: var(--fifth-color-text);
+  background-color: var(--second-color-text);
+}
+a:hover,
+button :hover {
+  color: var(--srecond-default-bachground);
 }
