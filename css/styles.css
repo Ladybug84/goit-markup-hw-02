@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", "sans-serif";
-  color:var(--first-color-text);
-  background-color:var(--default-background);
+  color: var(--first-color-text);
+  background-color: var(--default-background);
 }
 :root {
   --first-color-text: #434455;
@@ -15,18 +15,16 @@ body {
 header {
   background-color: var(--default-background);
 }
-.nav > .logo {
-  color: var(--thirth-color-text);
+.nav > logo {
+  color: var(--second-color-text);
   font-size: 18px;
   text-decoration: none;
   text-transform: uppercase;
-  font-weight: https://ladybug84.github.io/goit-markup-hw-02/800;
+  font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
 .logo > span > .stu {
-
-
   color: var(--second-color-text);
 }
 .button {
@@ -36,4 +34,14 @@ header {
 a:hover,
 button :hover {
   color: var(--srecond-default-bachground);
+}
+.nav {
+  list-style: none;
+}
+.a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--thirth-color-text);
 }
