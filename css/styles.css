@@ -45,3 +45,12 @@ button :hover {
   letter-spacing: 0.02em;
   color: var(--thirth-color-text);
 }
+.fotter {
+  background-color: var(--thirth-color-text);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
